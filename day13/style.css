@@ -1,0 +1,35 @@
+/* Basic Selector */
+
+h2 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+#third {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#para2 {
+    color: chartreuse;
+}
+
+.sec-b {
+    color: darkgoldenrod;
+}
+
+
+h1 {
+    color: brown;
+}
+
+#head {
+    color: blueviolet;
+}
+
+.new {
+    color: chartreuse;
+}
