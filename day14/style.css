@@ -1,0 +1,27 @@
+/* * {
+    border: 1px solid red;
+} */
+
+ul li ol {
+    color: red;
+}
+
+article>p {
+    background-color: aquamarine;
+}
+
+/* article>p>strong {
+    background-color: chartreuse;
+} */
+
+p>strong {
+    background-color: lightblue;
+}
+
+/* ul>li>ol {
+    color: blue;
+} */
+
+li>ol {
+    color: blueviolet;
+}

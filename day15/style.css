@@ -1,0 +1,25 @@
+/* next sibling combinator */
+/* h4+p {
+    color: blue;
+} */
+
+h4~p {
+    color: red;
+}
+
+#left {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#right {
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+}
