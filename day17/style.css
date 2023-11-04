@@ -1,0 +1,22 @@
+input[type="password"] {
+    background-color: brown;
+}
+
+a[href="http://google.com"] {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+#container {
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+}
+
+#container:hover {
+    background-color: green;
+}
+
+h1:active {
+    color: red;
+}
