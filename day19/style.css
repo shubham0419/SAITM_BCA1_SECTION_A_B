@@ -1,0 +1,20 @@
+h1 {
+    /* RGB */
+    /* color: rgb(179, 0, 255); */
+
+    /* RGBA
+    color: rgba(255, 0, 0, 0.5); */
+
+    /* hexadecimal */
+    color: #ff7d00;
+}
+
+div:nth-of-type(2) {
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+}
+
+#container>p:nth-of-type(3) {
+    color: red;
+}

@@ -1,0 +1,117 @@
+/* tag selector */
+h1 {
+    color: brown;
+    background-color: black;
+}
+
+/* id selector */
+#para {
+    color: blue;
+}
+
+/* class selector */
+.bca {
+    color: aqua;
+    background-color: black;
+}
+
+/* universal selector */
+/* * {
+    border: 3px solid red;
+} */
+
+/* combinator */
+
+/* decendant combinator */
+div strong {
+    background-color: red;
+}
+
+/* child combinator */
+div>p {
+    color: chocolate;
+}
+
+/* next sibling */
+h1+p {
+    background-color: aquamarine;
+    color: black;
+}
+
+/*subsequent siblings */
+h2~div {
+    color: violet;
+    background-color: black;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    background-color: red;
+}
+
+/* attribute selector */
+input[type="password"] {
+    background-color: aqua;
+}
+
+a[href="http://google.com"] {
+    color: green;
+    font-size: 24px;
+}
+
+/* pseudo class selector */
+h1:hover {
+    color: green;
+}
+
+h2:active {
+    color: red;
+}
+
+input:focus {
+    background-color: black;
+    color: greenyellow;
+}
+
+#last-para::first-letter {
+    color: rgb(71, 0, 0);
+    font-size: 48px;
+}
+
+#last-para::first-line {
+    color: rgb(61, 118, 139);
+}
+
+h3::after {
+    content: " Selector";
+    color: red;
+}
+
+h3::before {
+    content: "Pseudo ";
+    color: red;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: orange;
+}
+
+li:nth-of-type(odd) {
+    color: aqua;
+}
+
+li:nth-of-type(8) {
+    color: violet;
+}
+
+li:nth-of-type(2) {
+    color: blue;
+}
+
+li:nth-of-type(2n+3) {
+    color: darkmagenta;
+}

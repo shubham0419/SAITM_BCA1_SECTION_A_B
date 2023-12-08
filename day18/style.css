@@ -1,0 +1,68 @@
+/* input[type="text"] {
+    background-color: cadetblue;
+} */
+
+a[href="http://facebook.com"] {
+    color: red;
+    text-decoration: none;
+}
+
+/* pseudo class selector */
+
+#container {
+    height: 200px;
+    width: 200px;
+    background-color: darkcyan;
+}
+
+/* #container:hover {
+    background-color: cyan;
+} */
+
+#container:active {
+    background-color: rgb(100, 203, 203);
+}
+
+input[placeholder="Name"]:focus {
+    background-color: burlywood;
+}
+
+p::first-letter {
+    font-size: 36px;
+    color: brown;
+}
+
+p::first-line {
+    color: rgb(169, 94, 94);
+}
+
+h1::after {
+    content: " size 4";
+    color: blueviolet;
+}
+
+h1::before {
+    content: "This is ";
+    color: violet;
+}
+
+/* Structural Pseudo selector */
+li:nth-of-type(odd) {
+    color: red;
+}
+
+li:nth-of-type(even) {
+    color: blue;
+}
+
+li:last-child {
+    color: blueviolet;
+}
+
+li:first-child {
+    color: blueviolet;
+}
+
+li:nth-of-type(4) {
+    color: green;
+}
