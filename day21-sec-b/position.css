@@ -1,4 +1,4 @@
-#static>div {
+/* #static>div {
     height: 100px;
     width: 100px;
     border: 2px solid black;
@@ -11,7 +11,7 @@
 
 #static>div:nth-of-type(2) {
     background-color: blue;
-    /* position: static; */
+    position: static;
     top: 100px;
 }
 
@@ -19,7 +19,7 @@
     background-color: green;
 }
 
-/* relative */
+relative
 #relative>div {
     height: 100px;
     width: 100px;
@@ -34,11 +34,75 @@
 #relative>div:nth-of-type(2) {
     background-color: rgb(255, 0, 132);
     position: relative;
-    top: 20px;
-    right: 100px;
+    top: 50px;
     left: 50px;
+    right: 60px;
 }
 
 #relative>div:nth-of-type(3) {
     background-color: rgb(128, 124, 0);
+}
+
+Absolute
+#absolute {
+    border: 5px solid black;
+    position: relative;
+}
+
+#absolute>div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#absolute>div:nth-of-type(1) {
+    background-color: rgb(0, 17, 255);
+}
+
+#absolute>div:nth-of-type(2) {
+    background-color: rgb(0, 255, 68);
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+#absolute>div:nth-of-type(3) {
+    background-color: rgb(100, 0, 128);
+}
+
+fixed
+#fixed {
+    border: 5px solid black;
+    position: relative;
+}
+
+#fixed>div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#fixed>div:nth-of-type(1) {
+    background-color: rgb(132, 0, 255);
+}
+
+#fixed>div:nth-of-type(2) {
+    background-color: rgb(246, 255, 0);
+}
+
+#fixed>div:nth-of-type(3) {
+    background-color: rgb(128, 0, 19);
+    position: fixed;
+    top: 0px;
+    right: 20px;
+} */
+
+div {
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 50px;
 }

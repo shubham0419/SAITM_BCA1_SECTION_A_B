@@ -1,4 +1,4 @@
-#static {
+/* #static {
     border: 5px solid black;
 }
 
@@ -10,13 +10,13 @@
 
 #static>div:nth-of-type(1) {
     background-color: red;
+    top: 100px;
 }
 
 #static>div:nth-of-type(2) {
     background-color: blue;
     position: static;
-    top: 20px;
-    left: 50px;
+    top: 100px;
 }
 
 #static>div:nth-of-type(3) {
@@ -40,8 +40,10 @@
 #relative>div:nth-of-type(2) {
     background-color: rgb(0, 255, 0);
     position: relative;
-    top: 20px;
-    left: 100px;
+    top: 50px;
+    left: 50px;
+    left will have prefrence over right
+    right: 100px;
 }
 
 #relative>div:nth-of-type(3) {
@@ -50,6 +52,7 @@
 
 #absolute {
     border: 5px solid black;
+    position: relative;
 }
 
 #absolute>div {
@@ -64,9 +67,65 @@
 
 #absolute>div:nth-of-type(2) {
     background-color: rgb(187, 0, 255);
-
+    position: absolute;
+    top: 20px;
 }
 
 #absolute>div:nth-of-type(3) {
     background-color: rgb(0, 11, 128);
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#fixed {
+    border: 5px solid black;
+    position: relative;
+}
+
+#fixed>div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+#fixed>div:nth-of-type(1) {
+    background-color: rgb(0, 251, 255);
+    position: fixed;
+    top: 10px;
+    right: 50px;
+}
+
+#fixed>div:nth-of-type(2) {
+    background-color: rgb(255, 0, 106);
+}
+
+#fixed>div:nth-of-type(3) {
+    background-color: rgb(0, 128, 34);
+} */
+* {
+    /* to set every element default margin to 0  */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+div {
+    background-color: aqua;
+    color: black;
+    font-size: 24px;
+    border: 2px solid black;
+    margin: 0 2px 5px 2px;
+    position: sticky;
+    top: 40px;
+}
+
+p:nth-of-type(1) {
+    margin-top: 45px;
 }
