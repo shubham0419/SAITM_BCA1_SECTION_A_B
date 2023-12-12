@@ -5,7 +5,9 @@
 
 header {
     background-color: black;
+    width: 100%;
     height: 110px;
+    position: fixed;
 }
 
 #logo {
@@ -14,3 +16,27 @@ header {
     border-radius: 50%;
     margin-top: 5px;
 }
+
+#nav-items {
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+    top: 50px;
+}
+
+#nav-items li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#nav-items a {
+    color: #f28482;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#nav-items a:hover {
+    border-bottom: 2px solid #f28482;
+}
+
+#nav-items button {}

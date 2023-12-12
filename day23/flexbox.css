@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    height: 400px;
+    width: 70%;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* justify-content: center;
+    align-items: center;
+    align-content: centre; */
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+section>div {
+    height: 100px;
+    width: 100px;
+}
