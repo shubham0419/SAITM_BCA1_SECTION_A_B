@@ -1,0 +1,12 @@
+.navbar {
+    background: linear-gradient(90deg, red, orange, rgb(255, 0, 43));
+}
+
+/* .nav-link {
+    color: black;
+} */
+
+.d-block {
+    width: 100%;
+    height: 90vh;
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    height: 80px;
+    border-bottom: 1px solid black;
+    position: fixed;
+}
+
+#logo {
+    width: 150px;
+    position: absolute;
+    top: 27px;
+    left: 60px;
+}
+
+/* nav-items */
+
+#navbar {
+    position: absolute;
+    right: 7%;
+    top: 21px;
+}
+
+#navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#navbar ul {
+    display: inline-block;
+}
+
+#navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+#navbar button a {
+    color: white;
+}
+
+#navbar button {
+    border-radius: 18px;
+}
+
+/* hero section */
+#hero {
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+    border-bottom: 1px solid black;
+}
