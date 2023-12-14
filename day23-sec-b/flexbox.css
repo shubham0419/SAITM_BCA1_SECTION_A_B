@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    height: 400px;
+    width: 70%;
+    background-color: rgb(247, 199, 141);
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    /* gap: 10px 20px; */
+    /* gap: rowGapValue columnGapValue*/
+}
+
+section>div {
+    height: 100px;
+    width: 100px;
+}
+
+section>div:nth-of-type(4) {
+    flex-grow: 1;
+}
+
+section>div:nth-of-type(3) {
+    flex-grow: 2;
+}
+
+/* section>div:nth-of-type(4) {
+    flex-shrink: 2;
+}
+
+section>div:nth-of-type(3) {
+    flex-shrink: 2;
+} */

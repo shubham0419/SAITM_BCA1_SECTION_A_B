@@ -1,0 +1,53 @@
+/* section {
+    height: fit-content;
+    width: 80%;
+    border: 10px solid gray;
+    margin: 20px auto;
+}
+
+img {
+    width: 45%;
+}
+
+div {
+    width: 50%;
+    float: right;
+} */
+
+/* TRANSITION */
+
+/* section {
+    border: 2px solid black;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.74, -0.33, 0.69, 0.46);
+}
+
+div {
+    margin: 2px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+section:hover {
+    padding-left: 700px;
+} */
+
+/* Transform */
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    transition-duration: 2s;
+    margin: 100px auto;
+}
+
+h1:hover {
+    /* transform: translateX(-200px); */
+    /* transform: translateY(-100px); */
+    /* transform: rotateX(360deg); */
+    /* transform: rotateX(0.5turn); */
+    /* transform: rotateY(180deg); */
+    /* transform: scaleX(2); */
+    /* transform: scale(2); */
+}

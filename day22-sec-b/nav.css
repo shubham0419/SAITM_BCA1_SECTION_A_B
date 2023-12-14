@@ -7,6 +7,7 @@ header {
     background-color: black;
     width: 100%;
     height: 110px;
+    position: fixed;
 }
 
 #logo {
@@ -14,4 +15,30 @@ header {
     width: 100px;
     border-radius: 50%;
     margin: 5px 0 5px 50px;
+}
+
+#navbar {
+    display: inline-block;
+    position: absolute;
+    right: 17%;
+    top: 40%;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#navbar a:hover {
+    border-bottom: 2px solid white;
 }
