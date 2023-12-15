@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
@@ -54,4 +55,106 @@ header {
     width: 100%;
     background-color: rgb(255, 196, 0);
     border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#read {
+    width: 50%;
+}
+
+#read h1 {
+    font-size: 95px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+#read p {
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#read-img {
+    width: 40%;
+}
+
+#read-img>img {
+    width: 100%;
+    padding-left: 100px;
+}
+
+
+#read button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#read button {
+    border-radius: 22px;
+    margin-top: 20px;
+    padding: 5px 40px;
+}
+
+/* TRENDING */
+#trending h3 {
+    margin: 40px 0 20px 100px;
+    font-size: 20px;
+}
+
+#personal-info {
+    display: flex;
+}
+
+#personal-info>img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#trending-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-right: 20px;
+}
+
+#trending-cards {
+    padding-left: 100px;
+    width: 350px;
+}
+
+#trending-cards h4 {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#trending {
+    border: 1px solid rgb(231, 231, 231);
+}
+
+/* News */
+
+#news-card {
+    display: flex;
+}
+
+#news-img>img {
+    width: 250px;
+    height: 150px;
+}
+
+#news-left {
+    display: inline-block;
+    width: 40%;
+}
+
+/* Discover */
+#web-info {
+    position: absolute;
 }

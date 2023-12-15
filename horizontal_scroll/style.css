@@ -1,0 +1,15 @@
+section {
+    display: flex;
+    overflow-x: scroll;
+}
+
+section::-webkit-scrollbar {
+    width: 0;
+}
+
+section>div {
+    min-width: 200px;
+    height: 300px;
+    background-color: red;
+    margin: 10px;
+}
