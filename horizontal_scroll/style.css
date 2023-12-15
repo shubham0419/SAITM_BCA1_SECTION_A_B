@@ -1,6 +1,7 @@
 section {
     display: flex;
     overflow-x: scroll;
+    background-image: url("https://images.unsplash.com/photo-1702146392677-187054648ebf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D");
 }
 
 section::-webkit-scrollbar {

@@ -1,35 +1,32 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
     width: 100%;
-    background-color: rgb(255, 196, 0);
     height: 80px;
-    border-bottom: 1px solid black;
+    background-color: rgb(255, 196, 0);
     position: fixed;
+    border-bottom: 1px solid black;
 }
 
 #logo {
-    width: 150px;
+    width: 160px;
     position: absolute;
-    top: 27px;
-    left: 60px;
+    top: 22px;
+    left: 5%;
 }
-
-/* nav-items */
 
 #navbar {
     position: absolute;
-    right: 7%;
+    right: 5%;
     top: 21px;
 }
 
 #navbar li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 #navbar ul {
@@ -37,124 +34,191 @@ header {
 }
 
 #navbar a {
-    color: black;
     text-decoration: none;
+    color: black;
+}
+
+#navbar button {
+    border-radius: 20px;
 }
 
 #navbar button a {
     color: white;
 }
 
-#navbar button {
-    border-radius: 18px;
-}
-
 /* hero section */
 #hero {
-    height: 85vh;
     width: 100%;
+    height: 530px;
     background-color: rgb(255, 196, 0);
-    border-bottom: 1px solid black;
+    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+#read-img {
+    width: 50%;
+}
+
+#read-img>img {
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 80%;
 }
 
 #read {
+    padding-left: 70px;
     width: 50%;
 }
 
 #read h1 {
-    font-size: 95px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90px;
     font-weight: 600;
+    margin-bottom: 20px;
     margin-top: 50px;
 }
 
 #read p {
-    font-size: 25px;
-    line-height: 24px;
-    font-weight: 400;
-    margin-top: 10px;
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 50px;
 }
 
-#read-img {
-    width: 40%;
-}
 
-#read-img>img {
-    width: 100%;
-    padding-left: 100px;
+#read button {
+    border-radius: 22px;
 }
-
 
 #read button a {
     color: white;
     text-decoration: none;
+    padding: 2px 28px;
     font-size: 20px;
 }
 
-#read button {
-    border-radius: 22px;
-    margin-top: 20px;
-    padding: 5px 40px;
+/* Trending */
+#trending {
+    border-bottom: 1px solid rgb(188, 188, 188);
 }
 
-/* TRENDING */
-#trending h3 {
-    margin: 40px 0 20px 100px;
-    font-size: 20px;
+#trending h4 {
+    margin: 40px 0 10px 100px;
 }
 
-#personal-info {
+#trending-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
 }
 
-#personal-info>img {
+.trending-card {
+    max-width: 290px;
+}
+
+.user-info {
+    display: flex;
+    column-gap: 5px;
+}
+
+.user-info>img {
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
 
-#trending-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-right: 20px;
-}
-
-#trending-cards {
-    padding-left: 100px;
-    width: 350px;
-}
-
-#trending-cards h4 {
+.user-work>h3 {
     font-size: 15px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
-#trending {
-    border: 1px solid rgb(231, 231, 231);
+.user-work>p {
+    font-size: 12px;
+    color: gray;
 }
 
 /* News */
 
-#news-card {
+#news-discover {
+    margin-top: 50px;
+    position: relative;
+    z-index: -1;
+}
+
+#news {
+    display: inline-block;
+    width: 58%;
+    padding-left: 5%;
+}
+
+.news-card {
     display: flex;
 }
 
-#news-img>img {
-    width: 250px;
-    height: 150px;
+#news .user-work h3 {
+    font-size: 20px;
 }
 
-#news-left {
-    display: inline-block;
-    width: 40%;
+#news .user-work h3+p {
+    font-size: 18px;
 }
 
-/* Discover */
-#web-info {
+.news-right img {
+    width: 200px;
+}
+
+/* discover */
+
+#discover-right {
     position: absolute;
+    top: 0px;
+    right: 5%;
+    width: 30%;
+}
+
+#discover {
+    position: sticky;
+    top: 160px;
+}
+
+#discover h4 {
+    font-size: 18px;
+}
+
+.discover-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.discover-btn button {
+    border-radius: 20px;
+    color: gray;
+}
+
+@media screen and (max-width:970px) {
+    #read-img {
+        display: none;
+    }
+
+    #read {
+        padding-left: 70px;
+        width: 100%;
+    }
+
+    #read h1 {
+        font-size: 60px;
+    }
+
+    #discover-right {
+        width: 80%;
+        left: 5%;
+    }
+
+    #news {
+        margin-top: 200px;
+        width: 95%;
+    }
 }
