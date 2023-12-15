@@ -178,11 +178,6 @@ header {
     width: 30%;
 }
 
-#discover {
-    position: sticky;
-    top: 160px;
-}
-
 #discover h4 {
     font-size: 18px;
 }
@@ -220,5 +215,18 @@ header {
     #news {
         margin-top: 200px;
         width: 95%;
+    }
+}
+
+@media screen and (min-width:1330px) {
+    #read-img {
+        width: 35%;
+    }
+}
+
+
+@media screen and (max-width:670px) {
+    #navbar ul {
+        display: none;
     }
 }

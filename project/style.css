@@ -222,3 +222,16 @@ header {
         width: 95%;
     }
 }
+
+@media screen and (min-width:1330px) {
+    #read-img {
+        width: 35%;
+    }
+}
+
+
+@media screen and (max-width:670px) {
+    #navbar ul {
+        display: none;
+    }
+}
